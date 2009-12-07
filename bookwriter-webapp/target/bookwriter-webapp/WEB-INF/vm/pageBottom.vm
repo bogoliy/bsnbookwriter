@@ -1,0 +1,13 @@
+<div id="footercont">
+	<ul>
+		<li><a title="home" href="home.x">home</a></li><li>|</li>
+		<li><a title="services" href="index.html">services</a></li><li>|</li>
+		<li><a title="company information" href="index.html">company information</a></li><li>|</li>
+		<li><a title="latest news" href="index.html">latest news</a></li><li>|</li>
+		<li><a title="contact us" href="index.html">contact us</a></li><li>|</li>
+		<li>template design by <strong><a title="derby uk web design" href="http://www.tristarwebdesign.co.uk">derby uk web design</a></strong></li>
+	</ul>
+</div>
+
+</body>
+	</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	<xsd:annotation>
+		<xsd:documentation>
+			This is the schema for bookwriter.com.
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="PartsType">
+		<xsd:sequence>
+			<xsd:element name="part" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="partId" type="xsd:positiveInteger" />
+						<xsd:element name="bookId" type="xsd:positiveInteger" />
+						<xsd:element name="datetime" type="xsd:dateTime" />
+						<xsd:element name="text" type="xsd:string" />
+						<xsd:element name="userId" type="xsd:positiveInteger" />
+						<xsd:element name="keywords" type="xsd:string" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="parts" type="PartsType" />
+	
+</xsd:schema>

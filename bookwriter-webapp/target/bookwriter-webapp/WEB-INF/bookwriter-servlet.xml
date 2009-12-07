@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="messages" />
+	</bean>
+	<bean id="partController" class="com.bookwriter.web.PartController">
+		<property name="partManager" ref="partManager" />
+	</bean>
+	<!-- you can have more than one handler defined -->
+	<bean id="urlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="urlMap">
+			<map>
+				<entry key="/blog.x">
+					<ref bean="partController" />
+				</entry>
+				<entry key="/home.x">
+					<ref bean="homeController" />
+				</entry>
+				<entry key="/addBlog.x">
+					<ref bean="addPartController" />
+				</entry>
+				<entry key="/video.x">
+					<ref bean="videoController" />
+				</entry>
+				<entry key="/test.x">
+					<ref bean="testController" />
+				</entry>
+				<entry key="/search.x">
+					<ref bean="searchController" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="partManager" class="com.bookwriter.persist.PartManager" />
+	<bean id="messageManager" class="com.bookwriter.persist.MessageManager" />
+	<bean id="velocityConfig"
+		class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+		<property name="resourceLoaderPath" value="/WEB-INF/vm/" />
+	</bean>
+
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+		<property name="cache" value="true" />
+		<property name="prefix" value="" />
+		<property name="suffix" value=".vm" />
+		<property name="exposeSpringMacroHelpers" value="true" />
+		<property name="contentType" value="text/html; charset=utf-8"></property>
+		<property name="attributesMap">
+			<map>
+				<entry key="authz">
+					<bean class="com.bookwriter.velocity.VelocityUserDetails" />
+				</entry>
+			</map>
+		</property>
+
+
+	</bean>
+
+	<bean name="addPartController" class="com.bookwriter.web.AddPartController">
+		<property name="sessionForm">
+			<value>true</value>
+		</property>
+		<property name="formView">
+			<value>/blog</value>
+		</property>
+		<property name="successView">
+			<value>redirect:blog.x</value>
+		</property>
+		<property name="commandClass">
+			<value>com.bookwriter.model.Part</value>
+		</property>
+		<property name="partManager">
+			<ref bean="partManager" />
+		</property>
+	</bean>
+
+	<!-- Home Controller. Dids nothing, just redirects to home.vm -->
+	<bean name="homeController" class="com.bookwriter.web.HomeController">
+		<property name="messageManager">
+			<ref bean="messageManager" />
+		</property>
+	</bean>
+
+	<!-- Video Controller. Dids nothing, just redirects to video.vm -->
+	<bean name="videoController" class="com.bookwriter.web.VideoController">
+		<property name="messageManager">
+			<ref bean="messageManager" />
+		</property>
+	</bean>
+
+	<!-- Test Controller. Dids nothing, just redirects -->
+	<bean name="testController" class="com.bookwriter.web.TestController" />
+
+	<!-- RSS -->
+	<bean id="rssCreator" name="rssCreator" class="com.bookwriter.rss.RSSCreator">
+		<property name="partManager" ref="partManager" />
+	</bean>
+
+	<!-- Search -->
+	<bean name="searchController" class="com.bookwriter.web.SearchController">
+		<property name="partManager">
+			<ref bean="partManager" />
+		</property>
+	</bean>
+
+</beans>
+
