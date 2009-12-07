@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+		- Sample namespace-based configuration - - $Id:
+		applicationContext-security.xml 3019 2008-05-01 17:51:48Z luke_t $
+	-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+              http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.2.xsd">
+
+
+
+	<security:http auto-config="true">
+
+		<security:intercept-url pattern="/**"
+			access="IS_AUTHENTICATED_ANONYMOUSLY" />
+		<!--
+			<security:intercept-url pattern="/index.iface"
+			access="IS_AUTHENTICATED_ANONYMOUSLY" /> <security:intercept-url
+			pattern="/index.iface" access="ROLE_USER, ROLE_ADMIN" />
+		-->
+		<security:intercept-url pattern="/login.jsp*"
+			filters="none" />
+		<security:form-login authentication-failure-url="/login.jsp?login_error=1"
+			default-target-url="/index.iface" />
+		<security:logout logout-success-url="/login.jsp" />
+
+	</security:http>
+
+	<!--
+		Usernames/Passwords are rod/koala dianne/emu scott/wombat peter/opal
+	-->
+
+	<security:authentication-provider
+		user-service-ref="userDetailsService">
+		<security:password-encoder hash="md5" />
+	</security:authentication-provider>
+
+	<bean id="userDetailsService" class="com.bookwriter.security.JdbcDaoImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:mysql://localhost:3306/bookwriter
+			</value>
+		</property>
+		<property name="username">
+			<value>root</value>
+		</property>
+		<property name="password">
+			<value>root</value>
+		</property>
+
+	</bean>
+</beans>
