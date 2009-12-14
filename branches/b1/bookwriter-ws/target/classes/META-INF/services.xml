@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	name="PartService">
+	<description>
+		This is a
+		sample Web
+		Service for the
+		bookwriter site.
+	</description>
+	<parameter name="ServiceClass" locked="false">org.bookwriter.ws.PartService
+	</parameter>
+	<operation name="getPart">
+		<messageReceiver
+			class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+	</operation>
+
+	<operation name="addPart">
+		<messageReceiver class="org.apache.axis2.receivers.RawXMLINOnlyMessageReceiver" />
+	</operation>
+</service>
