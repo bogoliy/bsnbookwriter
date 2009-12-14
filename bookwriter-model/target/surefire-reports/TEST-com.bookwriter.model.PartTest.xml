@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.25" errors="0" skipped="0" tests="1" name="com.bookwriter.model.PartTest">
+<testsuite failures="0" time="7.141" errors="0" skipped="0" tests="1" name="com.bookwriter.model.PartTest">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="C:\Documents and Settings\root\.m2\repository"/>
@@ -9,7 +9,7 @@
     <property name="env.COMMANDER_PATH" value="C:\Program Files\Total Commander XP"/>
     <property name="os.name" value="Windows XP"/>
     <property name="env.FP_NO_HOST_CHECK" value="NO"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\classes"/>
+    <property name="sun.boot.class.path" value="D:\Programming\Sun\SDK\jdk\jre\lib\resources.jar;D:\Programming\Sun\SDK\jdk\jre\lib\rt.jar;D:\Programming\Sun\SDK\jdk\jre\lib\sunrsasign.jar;D:\Programming\Sun\SDK\jdk\jre\lib\jsse.jar;D:\Programming\Sun\SDK\jdk\jre\lib\jce.jar;D:\Programming\Sun\SDK\jdk\jre\lib\charsets.jar;D:\Programming\Sun\SDK\jdk\jre\classes"/>
     <property name="env.COMPUTERNAME" value="BSN"/>
     <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"/>
     <property name="sun.desktop" value="windows"/>
@@ -19,8 +19,8 @@
     <property name="env.HOMEPATH" value="\Documents and Settings\root"/>
     <property name="user.name" value="root"/>
     <property name="user.language" value="ru"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre6\bin"/>
-    <property name="classworlds.conf" value="D:\Programming\IBM\eclipse\workspace\.metadata\.plugins\org.maven.ide.eclipse\launches\m2conf1033482995879381913.tmp"/>
+    <property name="sun.boot.library.path" value="D:\Programming\Sun\SDK\jdk\jre\bin"/>
+    <property name="classworlds.conf" value="D:\Programming\IBM\eclipse\workspace\.metadata\.plugins\org.maven.ide.eclipse\launches\m2conf5636469465773394178.tmp"/>
     <property name="java.version" value="1.6.0_17"/>
     <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 44 Stepping 2, AuthenticAMD"/>
     <property name="user.timezone" value="Europe/Helsinki"/>
@@ -28,7 +28,7 @@
     <property name="env.TEMP" value="C:\DOCUME~1\root\LOCALS~1\Temp"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="env.APR_ICONV_PATH" value="C:\Program Files\Subversion\iconv"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre6\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="D:\Programming\Sun\SDK\jdk\jre\lib\endorsed"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="env.HOMEDRIVE" value="C:"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
@@ -37,9 +37,9 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="user.country" value="RU"/>
-    <property name="java.home" value="C:\Program Files\Java\jre6"/>
+    <property name="java.home" value="D:\Programming\Sun\SDK\jdk\jre"/>
     <property name="env.APPDATA" value="C:\Documents and Settings\root\Application Data"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.info" value="mixed mode"/>
     <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="env.OS" value="Windows_NT"/>
     <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files"/>
@@ -48,7 +48,7 @@
     <property name="java.vm.version" value="14.3-b01"/>
     <property name="user.variant" value=""/>
     <property name="env.USERPROFILE" value="C:\Documents and Settings\root"/>
-    <property name="env.JAVA_HOME" value="c:\Program Files\Java\jdk1.6.0\"/>
+    <property name="env.JAVA_HOME" value="D:\Programming\Sun\SDK\jdk\"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="env.TMP" value="C:\DOCUME~1\root\LOCALS~1\Temp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
@@ -59,7 +59,7 @@
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="env.VS80COMNTOOLS" value="D:\Program Files\Microsoft Visual Studio 8\Common7\Tools\"/>
     <property name="env.NUMBER_OF_PROCESSORS" value="1"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre6\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Java\jdk1.6.0\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin"/>
+    <property name="java.library.path" value="D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin"/>
     <property name="java.vendor.url" value="http://java.sun.com/"/>
     <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
     <property name="maven.home" value="EMBEDDED"/>
@@ -83,7 +83,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
     <property name="env.CG_BOOST_ROOT" value="D:\Program Files\CodeGear\RAD Studio\6.0\include\boost_1_35"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre6\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="D:\Programming\Sun\SDK\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="env.PERL5LIB" value="E:\oracle\product\10.2.0\db_1\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_1\perl\5.8.3\lib;E:\oracle\product\10.2.0\db_1\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_1\perl\site\5.8.3;E:\oracle\product\10.2.0\db_1\perl\site\5.8.3\lib;E:\oracle\product\10.2.0\db_1\sysman\admin\scripts;"/>
     <property name="user.dir" value="D:\Programming\IBM\eclipse\workspace\bookwriter\bookwriter-model"/>
     <property name="line.separator" value="
@@ -91,7 +91,7 @@
     <property name="env.EL_PATHS" value=";C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"/>
-    <property name="env.Path" value="C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Java\jdk1.6.0\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin"/>
+    <property name="env.Path" value="C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin"/>
     <property name="basedir" value="D:\Programming\IBM\eclipse\workspace\bookwriter\bookwriter-model"/>
     <property name="env.VISUALSVN_SERVER" value="C:\Program Files\VisualSVN Server\"/>
     <property name="maven.mode.standalone" value="true"/>
@@ -103,5 +103,5 @@
     <property name="java.specification.version" value="1.6"/>
     <property name="env.PROCESSOR_LEVEL" value="15"/>
   </properties>
-  <testcase time="4.172" classname="com.bookwriter.model.PartTest" name="testParts"/>
+  <testcase time="7.031" classname="com.bookwriter.model.PartTest" name="testParts"/>
 </testsuite>

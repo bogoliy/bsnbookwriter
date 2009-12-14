@@ -39,6 +39,23 @@ public class PartManager {
 		return parts;
 	}
 
+	public Part getPart(int partId) {
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		session.beginTransaction();
+		Part part = null;
+		try {
+			Criteria crit = session.createCriteria(Part.class);
+			crit.add(Expression.eq("partId", partId));
+			part = (Part) crit.uniqueResult();
+			session.getTransaction().commit();
+		} catch (HibernateException e) {
+			session.getTransaction().rollback();
+			throw e;
+		}
+
+		return part;
+	}
+
 	static final long MILLIS_IN_A_DAY = 1000 * 60 * 60 * 24;
 
 	public List<Part> getLatestParts() {

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<serviceGroup>
 	<service name="videoService" scope="application"
 		targetNamespace="http://bookwriter.com/">
 		<description>Book service</description>
@@ -18,3 +19,39 @@
 			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
 		</operation>
 	</service>
+	<service name="partService" scope="application"
+		targetNamespace="http://bookwriter.com/">
+		<description>
+			This is a
+			sample Web
+			Service for the
+			bookwriter site.
+		</description>
+		<messageReceivers>
+			<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-only"
+				class="org.apache.axis2.receivers.RawXMLINOnlyMessageReceiver" />
+			<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out"
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+			<messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-only"
+				class="org.apache.axis2.receivers.RawXMLINOnlyMessageReceiver" />
+			<messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-out"
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+			<messageReceiver mep="http://www.w3.org/ns/wsdl/in-only"
+				class="org.apache.axis2.receivers.RawXMLINOnlyMessageReceiver" />
+			<messageReceiver mep="http://www.w3.org/ns/wsdl/in-out"
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+		</messageReceivers>
+		<parameter name="ServiceClass" locked="false">org.bookwriter.ws.PartService
+		</parameter>
+		<operation name="getPart">
+			<messageReceiver
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+		</operation>
+
+		<operation name="addPart">
+			<messageReceiver
+				class="org.apache.axis2.receivers.RawXMLINOnlyMessageReceiver" />
+		</operation>
+	</service>
+</serviceGroup>
+	

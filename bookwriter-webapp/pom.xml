@@ -185,28 +185,42 @@
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-kernel</artifactId>
-			<version>1.5</version>
+			<version>1.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-jaxws</artifactId>
-			<version>1.5</version>
+			<version>1.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-codegen</artifactId>
-			<version>1.5</version>
+			<version>1.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-adb</artifactId>
-			<version>1.5</version>
+			<version>1.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.ws.commons.axiom
 			</groupId>
 			<artifactId>axiom-api</artifactId>
 			<version>1.2.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-local</artifactId>
+			<version>1.5.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-http</artifactId>
+			<version>1.5.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.ws.commons.axiom
@@ -299,6 +313,12 @@
 		<dependency>
 			<groupId>com.bookwriter</groupId>
 			<artifactId>bookwriter-rss</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.bookwriter</groupId>
+			<artifactId>bookwriter-ws</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>

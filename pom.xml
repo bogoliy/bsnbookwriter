@@ -26,6 +26,7 @@
     <module>bookwriter-webapp</module>
     <module>bookwriter-rss</module>
     <module>bookwriter-store</module>
+    <module>bookwriter-ws</module>
   </modules>
 	<dependencies>
 		<dependency>

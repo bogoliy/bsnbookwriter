@@ -37,7 +37,7 @@
 	<login-config>
 		<auth-method>BASIC</auth-method>
 	</login-config>
-	
+
 	<!-- JAXB redirect to servlet which generates xml -->
 	<servlet>
 		<servlet-name>jaxbServlet</servlet-name>
@@ -49,7 +49,7 @@
 		<url-pattern>parts.jaxb</url-pattern>
 	</servlet-mapping>
 
-	
+
 	<!-- Test Servlet -->
 	<servlet>
 		<servlet-name>TestServlet</servlet-name>
@@ -60,19 +60,6 @@
 	<servlet-mapping>
 		<servlet-name>TestServlet</servlet-name>
 		<url-pattern>/test</url-pattern>
-	</servlet-mapping>
-	 
-	<!-- Web service through the Axis2 -->
-	<servlet>
-		<servlet-name>AxisServlet</servlet-name>
-		<display-name>Apache-Axis Servlet</display-name>
-		<servlet-class>
-			org.apache.axis2.transport.http.AxisServlet</servlet-class>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>AxisServlet</servlet-name>
-		<url-pattern>/services/*</url-pattern>
 	</servlet-mapping>
 
 	<!-- RSS -->
@@ -146,6 +133,16 @@
 		<display-name>Apache-Axis Servlet</display-name>
 		<servlet-class>
 			org.apache.axis2.transport.http.AxisServlet</servlet-class>
+		<!--<init-param>-->
+		<!--<param-name>axis2.xml.path</param-name>-->
+		<!--<param-value>/WEB-INF/conf/axis2.xml</param-value>-->
+		<!--<param-name>axis2.xml.url</param-name>-->
+		<!--<param-value>http://localhost/myrepo/axis2.xml</param-value>-->
+		<!--<param-name>axis2.repository.path</param-name>-->
+		<!--<param-value>/WEB-INF</param-value>-->
+		<!--<param-name>axis2.repository.url</param-name>-->
+		<!--<param-value>http://localhost/myrepo</param-value>-->
+		<!--</init-param>-->
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 

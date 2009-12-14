@@ -450,6 +450,7 @@
           <string>WEB-INF/log4j.properties</string>
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/lib/axis2-transport-local-1.5.jar</string>
+          <string>WEB-INF/conf/axis2.xml</string>
           <string>index.jsp</string>
           <string>login.jsp</string>
           <string>video/Oceana_-_Cry_Cry__official_international_video_version_.flv</string>
@@ -934,7 +935,7 @@
           <string>WEB-INF/lib/integration-1.5.8.jar</string>
           <string>WEB-INF/lib/ant-junit-1.6.5.jar</string>
           <string>WEB-INF/lib/slf4j-log4j12-1.5.8.jar</string>
-          <string>WEB-INF/lib/axis2-kernel-1.5.jar</string>
+          <string>WEB-INF/lib/axis2-kernel-1.5.1.jar</string>
           <string>WEB-INF/lib/axiom-dom-1.2.8.jar</string>
           <string>WEB-INF/lib/mail-1.4.jar</string>
           <string>WEB-INF/lib/activation-1.1.jar</string>
@@ -948,11 +949,11 @@
           <string>WEB-INF/lib/ant-launcher-1.7.0.jar</string>
           <string>WEB-INF/lib/xmlParserAPIs-2.6.0.jar</string>
           <string>WEB-INF/lib/woden-impl-dom-1.0M8.jar</string>
-          <string>WEB-INF/lib/axis2-jaxws-1.5.jar</string>
+          <string>WEB-INF/lib/axis2-jaxws-1.5.1.jar</string>
           <string>WEB-INF/lib/geronimo-annotation_1.0_spec-1.1.jar</string>
-          <string>WEB-INF/lib/axis2-saaj-1.5.jar</string>
+          <string>WEB-INF/lib/axis2-saaj-1.5.1.jar</string>
           <string>WEB-INF/lib/geronimo-saaj_1.3_spec-1.0.1.jar</string>
-          <string>WEB-INF/lib/axis2-metadata-1.5.jar</string>
+          <string>WEB-INF/lib/axis2-metadata-1.5.1.jar</string>
           <string>WEB-INF/lib/geronimo-jaxws_2.1_spec-1.0.jar</string>
           <string>WEB-INF/lib/xml-resolver-1.2.jar</string>
           <string>WEB-INF/lib/jaxb-impl-2.1.7.jar</string>
@@ -963,10 +964,11 @@
           <string>WEB-INF/lib/jdom-1.0.jar</string>
           <string>WEB-INF/lib/xom-1.0.jar</string>
           <string>WEB-INF/lib/icu4j-2.6.1.jar</string>
-          <string>WEB-INF/lib/axis2-transport-http-1.5.jar</string>
+          <string>WEB-INF/lib/axis2-transport-http-1.5.1.jar</string>
           <string>WEB-INF/lib/httpcore-4.0.jar</string>
-          <string>WEB-INF/lib/axis2-codegen-1.5.jar</string>
-          <string>WEB-INF/lib/axis2-adb-1.5.jar</string>
+          <string>WEB-INF/lib/axis2-codegen-1.5.1.jar</string>
+          <string>WEB-INF/lib/axis2-adb-1.5.1.jar</string>
+          <string>WEB-INF/lib/axis2-transport-local-1.5.1.jar</string>
           <string>WEB-INF/lib/woodstox-wstx-asl-3.2.4.jar</string>
           <string>WEB-INF/lib/jaxws-tools-2.1.3.jar</string>
           <string>WEB-INF/lib/spring-ldap-core-1.3.0.RELEASE.jar</string>
@@ -985,6 +987,8 @@
           <string>WEB-INF/lib/jboss-archive-browsing-5.0.0alpha-200607201-119.jar</string>
           <string>WEB-INF/lib/commons-logging-api-1.0.4.jar</string>
           <string>WEB-INF/lib/bookwriter-rss-0.0.1-SNAPSHOT.jar</string>
+          <string>WEB-INF/lib/bookwriter-ws-0.0.1-SNAPSHOT.jar</string>
+          <string>WEB-INF/lib/axis2-1.5.1.jar</string>
         </pathsSet>
       </path-set>
     </entry>

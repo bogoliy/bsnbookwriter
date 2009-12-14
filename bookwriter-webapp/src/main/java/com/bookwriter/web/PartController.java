@@ -29,7 +29,7 @@ public class PartController implements Controller {
 		int bookId = request.getParameter("bookId") == null ? 1 : Integer
 				.parseInt(request.getParameter("bookId"));
 		List<Part> parts = partManager.getParts(bookId);
-		Map props = new HashMap();
+		Map<String, Object> props = new HashMap<String, Object>();
 		props.put("parts", parts);
 		props.put("editor", new com.bookwriter.fckeditor.FCKeditorWrapper(
 				request));
