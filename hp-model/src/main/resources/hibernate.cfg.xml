@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory name="mysql_factory">
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.password">root</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hp</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="current_session_context_class">thread</property>
+		<!--
+			С3PO - JDBC пул соединений с открытыми исходными кодами (open source
+			connection pool), распространяемый вместе с Hibernate в каталоге lib.
+			Hibernate будет использовать встроенный провайдер соединений
+			C3P0ConnectionProvider для пула, если вы установите свойства
+			hibernate.c3p0.*.
+		-->
+		<property name="hibernate.c3p0.minPoolSize">5</property>
+		<property name="hibernate.c3p0.maxPoolSize">20</property>
+		<property name="hibernate.c3p0.timeout">5</property>
+		<property name="hibernate.c3p0.max_statement">20</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<mapping class="ua.kiev.kpi.comsys.hp.model.Article" />
+		<mapping class="ua.kiev.kpi.comsys.hp.model.User" />
+	</session-factory>
+</hibernate-configuration>
