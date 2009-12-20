@@ -1,0 +1,90 @@
+18:01:13,203 ERROR ContextLoader,Timer-2:215 - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:349)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:92)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:422)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:352)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:255)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:199)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:45)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:548)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:115)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.Jetty6RunWarExploded.restartWebApp(Jetty6RunWarExploded.java:146)
+	at org.mortbay.jetty.plugin.Jetty6RunWarExploded$1.filesChanged(Jetty6RunWarExploded.java:100)
+	at org.mortbay.util.Scanner.reportBulkChanges(Scanner.java:486)
+	at org.mortbay.util.Scanner.reportDifferences(Scanner.java:352)
+	at org.mortbay.util.Scanner.scan(Scanner.java:280)
+	at org.mortbay.util.Scanner$1.run(Scanner.java:232)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:117)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	... 27 more
+18:02:13,515 DEBUG DefaultFilterInvocationDefinitionSource,Timer-2:120 - Added URL pattern: /index.htm; attributes: [IS_AUTHENTICATED_ANONYMOUSLY]
+18:02:13,515 DEBUG DefaultFilterInvocationDefinitionSource,Timer-2:120 - Added URL pattern: /index.htm; attributes: [IS_AUTHENTICATED_ANONYMOUSLY]
+18:02:13,515 DEBUG DefaultFilterInvocationDefinitionSource,Timer-2:120 - Added URL pattern: /addarticle.htm; attributes: [ROLE_USER, ROLE_ADMIN]
+18:02:13,515 DEBUG DefaultFilterInvocationDefinitionSource,Timer-2:120 - Added URL pattern: /addarticle.htm; attributes: [ROLE_USER, ROLE_ADMIN]
+18:02:13,578  INFO HttpSecurityBeanDefinitionParser,Timer-2:430 - No login page configured. The default internal one will be used. Use the 'login-page' attribute to set the URL of the login page.
+18:02:13,578  INFO HttpSecurityBeanDefinitionParser,Timer-2:430 - No login page configured. The default internal one will be used. Use the 'login-page' attribute to set the URL of the login page.
+18:02:13,906  INFO EntryPointInjectionBeanPostProcessor,Timer-2:30 - Selecting AuthenticationEntryPoint for use in ExceptionTranslationFilter
+18:02:13,906  INFO EntryPointInjectionBeanPostProcessor,Timer-2:30 - Selecting AuthenticationEntryPoint for use in ExceptionTranslationFilter
+18:02:13,921  INFO EntryPointInjectionBeanPostProcessor,Timer-2:38 - Using main configured AuthenticationEntryPoint.
+18:02:13,921  INFO EntryPointInjectionBeanPostProcessor,Timer-2:38 - Using main configured AuthenticationEntryPoint.
+18:02:13,921  INFO EntryPointInjectionBeanPostProcessor,Timer-2:46 - Using bean 'org.springframework.security.ui.webapp.AuthenticationProcessingFilterEntryPoint@15e8a8f' as the entry point.
+18:02:13,921  INFO EntryPointInjectionBeanPostProcessor,Timer-2:46 - Using bean 'org.springframework.security.ui.webapp.AuthenticationProcessingFilterEntryPoint@15e8a8f' as the entry point.
+18:02:13,953  INFO AbstractSecurityInterceptor,Timer-2:216 - Validated configuration attributes
+18:02:13,953  INFO AbstractSecurityInterceptor,Timer-2:216 - Validated configuration attributes
+18:02:14,156  INFO RememberMeServicesInjectionBeanPostProcessor,Timer-2:43 - Setting RememberMeServices on bean _basicAuthenticationFilter
+18:02:14,156  INFO RememberMeServicesInjectionBeanPostProcessor,Timer-2:43 - Setting RememberMeServices on bean _basicAuthenticationFilter
+18:02:14,187  INFO FilterChainProxyPostProcessor,Timer-2:57 - Checking sorted filter chain: [org.springframework.security.context.HttpSessionContextIntegrationFilter[ order=200; ], org.springframework.security.ui.logout.LogoutFilter[ order=300; ], org.springframework.security.ui.webapp.AuthenticationProcessingFilter[ order=700; ], org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter[ order=900; ], org.springframework.security.ui.basicauth.BasicProcessingFilter[ order=1000; ], org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter[ order=1100; ], org.springframework.security.ui.rememberme.RememberMeProcessingFilter[ order=1200; ], org.springframework.security.providers.anonymous.AnonymousProcessingFilter[ order=1300; ], org.springframework.security.ui.ExceptionTranslationFilter[ order=1400; ], org.springframework.security.ui.SessionFixationProtectionFilter[ order=1600; ], org.springframework.security.intercept.web.FilterSecurityInterceptor@1070723]
+18:02:14,187  INFO FilterChainProxyPostProcessor,Timer-2:57 - Checking sorted filter chain: [org.springframework.security.context.HttpSessionContextIntegrationFilter[ order=200; ], org.springframework.security.ui.logout.LogoutFilter[ order=300; ], org.springframework.security.ui.webapp.AuthenticationProcessingFilter[ order=700; ], org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter[ order=900; ], org.springframework.security.ui.basicauth.BasicProcessingFilter[ order=1000; ], org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter[ order=1100; ], org.springframework.security.ui.rememberme.RememberMeProcessingFilter[ order=1200; ], org.springframework.security.providers.anonymous.AnonymousProcessingFilter[ order=1300; ], org.springframework.security.ui.ExceptionTranslationFilter[ order=1400; ], org.springframework.security.ui.SessionFixationProtectionFilter[ order=1600; ], org.springframework.security.intercept.web.FilterSecurityInterceptor@1070723]
+18:02:14,187  INFO FilterChainProxyPostProcessor,Timer-2:74 - Filter chain...
+18:02:14,187  INFO FilterChainProxyPostProcessor,Timer-2:74 - Filter chain...
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [0] - org.springframework.security.context.HttpSessionContextIntegrationFilter[ order=200; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [0] - org.springframework.security.context.HttpSessionContextIntegrationFilter[ order=200; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [1] - org.springframework.security.ui.logout.LogoutFilter[ order=300; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [1] - org.springframework.security.ui.logout.LogoutFilter[ order=300; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [2] - org.springframework.security.ui.webapp.AuthenticationProcessingFilter[ order=700; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [2] - org.springframework.security.ui.webapp.AuthenticationProcessingFilter[ order=700; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [3] - org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter[ order=900; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [3] - org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter[ order=900; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [4] - org.springframework.security.ui.basicauth.BasicProcessingFilter[ order=1000; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [4] - org.springframework.security.ui.basicauth.BasicProcessingFilter[ order=1000; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [5] - org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter[ order=1100; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [5] - org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter[ order=1100; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [6] - org.springframework.security.ui.rememberme.RememberMeProcessingFilter[ order=1200; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [6] - org.springframework.security.ui.rememberme.RememberMeProcessingFilter[ order=1200; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [7] - org.springframework.security.providers.anonymous.AnonymousProcessingFilter[ order=1300; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [7] - org.springframework.security.providers.anonymous.AnonymousProcessingFilter[ order=1300; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [8] - org.springframework.security.ui.ExceptionTranslationFilter[ order=1400; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [8] - org.springframework.security.ui.ExceptionTranslationFilter[ order=1400; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [9] - org.springframework.security.ui.SessionFixationProtectionFilter[ order=1600; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [9] - org.springframework.security.ui.SessionFixationProtectionFilter[ order=1600; ]
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [10] - org.springframework.security.intercept.web.FilterSecurityInterceptor@1070723
+18:02:14,203  INFO FilterChainProxyPostProcessor,Timer-2:78 - [10] - org.springframework.security.intercept.web.FilterSecurityInterceptor@1070723
+18:02:14,234 DEBUG FilterChainProxy,Timer-2:205 - Converted URL to lowercase, from: '/spring_security_login'; to: '/spring_security_login'
+18:02:14,234 DEBUG FilterChainProxy,Timer-2:205 - Converted URL to lowercase, from: '/spring_security_login'; to: '/spring_security_login'
+18:02:14,250 DEBUG FilterChainProxy,Timer-2:212 - Candidate is: '/spring_security_login'; pattern is /login.jsp*; matched=false
+18:02:14,250 DEBUG FilterChainProxy,Timer-2:212 - Candidate is: '/spring_security_login'; pattern is /login.jsp*; matched=false
+18:02:14,250 DEBUG FilterChainProxy,Timer-2:205 - Converted URL to lowercase, from: '/spring_security_login'; to: '/spring_security_login'
+18:02:14,250 DEBUG FilterChainProxy,Timer-2:205 - Converted URL to lowercase, from: '/spring_security_login'; to: '/spring_security_login'
+18:02:14,250 DEBUG FilterChainProxy,Timer-2:212 - Candidate is: '/spring_security_login'; pattern is /**; matched=true
+18:02:14,250 DEBUG FilterChainProxy,Timer-2:212 - Candidate is: '/spring_security_login'; pattern is /**; matched=true
+18:02:14,250  INFO FilterChainProxyPostProcessor,Timer-2:134 - Checking whether login URL '/spring_security_login' is accessible with your configuration
+18:02:14,250  INFO FilterChainProxyPostProcessor,Timer-2:134 - Checking whether login URL '/spring_security_login' is accessible with your configuration
+18:02:14,250 DEBUG FilterChainProxyPostProcessor,Timer-2:143 - Default generated login page is in use
+18:02:14,250 DEBUG FilterChainProxyPostProcessor,Timer-2:143 - Default generated login page is in use
+18:02:14,250  INFO FilterChainProxyPostProcessor,Timer-2:91 - FilterChainProxy: FilterChainProxy[ UrlMatcher = org.springframework.security.util.AntUrlPathMatcher[requiresLowerCase='true']; Filter Chains: {/login.jsp*=[], /**=[org.springframework.security.context.HttpSessionContextIntegrationFilter[ order=200; ], org.springframework.security.ui.logout.LogoutFilter[ order=300; ], org.springframework.security.ui.webapp.AuthenticationProcessingFilter[ order=700; ], org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter[ order=900; ], org.springframework.security.ui.basicauth.BasicProcessingFilter[ order=1000; ], org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter[ order=1100; ], org.springframework.security.ui.rememberme.RememberMeProcessingFilter[ order=1200; ], org.springframework.security.providers.anonymous.AnonymousProcessingFilter[ order=1300; ], org.springframework.security.ui.ExceptionTranslationFilter[ order=1400; ], org.springframework.security.ui.SessionFixationProtectionFilter[ order=1600; ], org.springframework.security.intercept.web.FilterSecurityInterceptor@1070723]}]
+18:02:14,250  INFO FilterChainProxyPostProcessor,Timer-2:91 - FilterChainProxy: FilterChainProxy[ UrlMatcher = org.springframework.security.util.AntUrlPathMatcher[requiresLowerCase='true']; Filter Chains: {/login.jsp*=[], /**=[org.springframework.security.context.HttpSessionContextIntegrationFilter[ order=200; ], org.springframework.security.ui.logout.LogoutFilter[ order=300; ], org.springframework.security.ui.webapp.AuthenticationProcessingFilter[ order=700; ], org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter[ order=900; ], org.springframework.security.ui.basicauth.BasicProcessingFilter[ order=1000; ], org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter[ order=1100; ], org.springframework.security.ui.rememberme.RememberMeProcessingFilter[ order=1200; ], org.springframework.security.providers.anonymous.AnonymousProcessingFilter[ order=1300; ], org.springframework.security.ui.ExceptionTranslationFilter[ order=1400; ], org.springframework.security.ui.SessionFixationProtectionFilter[ order=1600; ], org.springframework.security.intercept.web.FilterSecurityInterceptor@1070723]}]
