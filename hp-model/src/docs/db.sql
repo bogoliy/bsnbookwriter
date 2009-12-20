@@ -25,3 +25,21 @@ CREATE TABLE  `hp`.`authority` (
   `us_id` int(10) unsigned default NULL,
   `au_authority` text
 ) ENGINE=InnoDB DEFAULT CHARSET=cp1251;
+
+DROP TABLE IF EXISTS `hp`.`groups`;
+CREATE TABLE  `hp`.`groups` (
+  `g_id` int(11) default NULL,
+  `g_name` varchar(100) default NULL
+) ENGINE=InnoDB DEFAULT CHARSET=cp1251;
+
+DROP TABLE IF EXISTS `hp`.`group_authorities`;
+CREATE TABLE  `hp`.`group_authorities` (
+  `g_id` int(11) default NULL,
+  `ga_authority` text
+) ENGINE=InnoDB DEFAULT CHARSET=cp1251;
+
+DROP TABLE IF EXISTS `hp`.`group_members`;
+CREATE TABLE  `hp`.`group_members` (
+  `g_id` int(11) default NULL,
+  `us_id` int(11) default NULL
+) ENGINE=InnoDB DEFAULT CHARSET=cp1251;
