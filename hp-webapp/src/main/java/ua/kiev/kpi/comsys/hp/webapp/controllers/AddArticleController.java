@@ -1,6 +1,7 @@
 package ua.kiev.kpi.comsys.hp.webapp.controllers;
 
 import java.net.BindException;
+
 import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,14 +17,16 @@ import ua.kiev.kpi.comsys.hp.persist.ArticleManager;
 public class AddArticleController extends
 		org.springframework.web.servlet.mvc.SimpleFormController {
 
-	ArticleManager partManager;
+	ArticleManager articleManager;
 
-	public ArticleManager getPartManager() {
-		return partManager;
+
+
+	public ArticleManager getArticleManager() {
+		return articleManager;
 	}
 
-	public void setPartManager(ArticleManager partManager) {
-		this.partManager = partManager;
+	public void setArticleManager(ArticleManager articleManager) {
+		this.articleManager = articleManager;
 	}
 
 	/**

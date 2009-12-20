@@ -33,6 +33,13 @@
 		<property name="suffix" value=".vm" />
 		<property name="exposeSpringMacroHelpers" value="true" />
 		<property name="contentType" value="text/html; charset=utf-8"></property>
+		<property name="attributesMap">
+			<map>
+				<entry key="authz">
+					<bean class="ua.kiev.kpi.comsys.hp.webapp.velocity.VelocityUserDetails" />
+				</entry>
+			</map>
+		</property>
 	</bean>
 
 	<bean id="velocityConfig"
@@ -76,7 +83,7 @@
 			<ref bean="articleManager" />
 		</property>
 	</bean>
-	
+
 	<bean id="addActicleController"
 		class="ua.kiev.kpi.comsys.hp.webapp.controllers.AddArticleController">
 		<property name="articleManager">

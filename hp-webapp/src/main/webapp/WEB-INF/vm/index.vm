@@ -54,7 +54,8 @@ Released for free under a Creative Commons Attribution 2.5 License
 			#if($authz.principal != "guest") 
 				<form action="j_spring_security_logout" method="POST">
 					#springMessage("welcome.text"), ${authz.principal}!
-				<input name="exit" type="submit" value="Logout"/>
+					<input name="exit" type="submit" value="Logout"/>
+				</form>
 			#end
 		</div>
 		
