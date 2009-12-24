@@ -40,14 +40,15 @@ Released for free under a Creative Commons Attribution 2.5 License
 				<li><a href="#">#springMessage("gallery.text")</a></li>
 			</ul>
 		</div>
+		<br/>
 		<div class="box">
 			#if($authz.principal == "guest") 
 			<form action="j_spring_security_check">
 				<span class="label">#springMessage("login.name.text"):</span><br/>
 				<input name="j_username" id="j_username" type= "text" /><br/>
 				<span class="label">#springMessage("login.password.text"):</span><br/>
-				<input name="j_password" id="j_password" type= "password" /><br/>
-				<input type="submit"/>
+				<input name="j_password" id="j_password" type= "password" /><br/> <br/>
+				<input type="submit"/> <br/>
 				<input type='checkbox' name='_spring_security_remember_me' /> #springMessage("login.rememberme.text") <br />
 			</form>
 			#end
@@ -58,7 +59,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 				</form>
 			#end
 		</div>
-		
+		<br/>
 	</div>
 	<div id="colTwo">
 		#foreach ($article in $articles) 
