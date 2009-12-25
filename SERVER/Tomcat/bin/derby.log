@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+2009-12-25 22:25:48.875 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-0125-c7f2-14be-0000001cd8f0
+on database directory F:\SERVER\jackrabbit\version\db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2009-12-25 22:25:50.609 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance e03f4017-0125-c7f2-14be-0000001cd8f0
+on database directory F:\SERVER\jackrabbit\workspaces\default\db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2009-12-25 22:27:06.281 GMT:
+Shutting down instance e03f4017-0125-c7f2-14be-0000001cd8f0
+----------------------------------------------------------------
+
+2009-12-25 22:27:06.312 GMT:
+Shutting down instance c013800d-0125-c7f2-14be-0000001cd8f0
+----------------------------------------------------------------

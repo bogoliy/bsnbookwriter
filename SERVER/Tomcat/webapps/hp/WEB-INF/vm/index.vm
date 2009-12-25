@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HP in KPI</title>
+<meta http-equiv="Content-Language" content="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<ul id="menu">
+		<li><a href="#" accesskey="1" title="">#springMessage("main.text")</a></li>
+		<li><a href="#" accesskey="2" title="">#springMessage("service.text")</a></li>
+		<li><a href="#" accesskey="3" title="">#springMessage("information.text")</a></li>
+		<li><a href="#" accesskey="4" title="">#springMessage("contacts.text")</a></li>
+	</ul>
+</div>
+
+<div id="content">
+	<div id="colOne">
+		<div id="logo">
+			<h1><a href="#">#springMessage("ntukpi.text")</a></h1>
+<BR/
+			<h2><a href="http://freecsstemplates.org/">#springMessage("vt.text")</a></h2>
+		</div>
+		<div class="box">
+			<h3>#springMessage("information.text"):</h3>
+			<ul class="bottom">
+				<li class="first"><a href="#">#springMessage("history.text")</a></li>
+				<li><a href="#">#springMessage("techinalparams.text")</a></li>
+				<li><a href="#">#springMessage("servicestaff.text")</a></li>
+				<li><a href="#">#springMessage("gallery.text")</a></li>
+			</ul>
+		</div>
+		<br/>
+		<div class="box">
+			#if($authz.principal == "guest") 
+			<form action="j_spring_security_check">
+				<span class="label">#springMessage("login.name.text"):</span><br/>
+				<input name="j_username" id="j_username" type= "text" /><br/>
+				<span class="label">#springMessage("login.password.text"):</span><br/>
+				<input name="j_password" id="j_password" type= "password" /><br/> <br/>
+				<input type="submit"/> <br/>
+				<input type='checkbox' name='_spring_security_remember_me' /> #springMessage("login.rememberme.text") <br />
+			</form>
+			#end
+			#if($authz.principal != "guest") 
+				<form action="j_spring_security_logout" method="POST">
+					#springMessage("welcome.text"), ${authz.principal}!
+					<input name="exit" type="submit" value="Logout"/>
+				</form>
+			#end
+		</div>
+		<br/>
+	</div>
+	<div id="colTwo">
+		#foreach ($article in $articles) 
+  		  <p>$article.text</p>
+		  <br/><br/>
+	    #end
+	</div>
+	<div id="colTwo">
+		$editor.get("text", "Input your text here")
+	</div>
+</div>
+<div id="footer">
+	<p>Copyright (c) 2009 Bogoliy Alexandr. All rights reserved. Design by <a href="http://freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+</body>
+</html>
