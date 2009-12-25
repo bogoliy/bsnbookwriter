@@ -31,7 +31,7 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
-	<!-- Jetty not lock -->
+	<!-- Jetty not lock 
 	<servlet>
 		<servlet-name>default</servlet-name>
 		<servlet-class>org.mortbay.jetty.servlet.DefaultServlet</servlet-class>
@@ -40,7 +40,7 @@
 			<param-value>false</param-value>
 		</init-param>
 		<load-on-startup>0</load-on-startup>
-	</servlet>
+	</servlet> -->
 
 	<!-- Spring FrameWork -->
 	<servlet>
@@ -88,5 +88,11 @@
 		<url-pattern>/fckeditor/editor/filemanager/connectors/*</url-pattern>
 	</servlet-mapping>
 
+	<!-- JCR -->
+	<resource-env-ref>
+		<description>Content Repository</description>
+		<resource-env-ref-name>jcr/repository</resource-env-ref-name>
+		<resource-env-ref-type>javax.jcr.Repository</resource-env-ref-type>
+	</resource-env-ref>
 
 </web-app>
