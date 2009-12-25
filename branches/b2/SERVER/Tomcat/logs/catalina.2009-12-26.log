@@ -1,0 +1,194 @@
+26.12.2009 0:00:01 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+26.12.2009 0:00:01 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+26.12.2009 0:00:01 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/156  config=null
+26.12.2009 0:00:01 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+26.12.2009 0:00:01 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8313 ms
+26.12.2009 0:00:10 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+26.12.2009 0:03:40 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/hp]
+26.12.2009 0:04:36 org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has not been started
+26.12.2009 0:05:21 org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+26.12.2009 0:05:37 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:05:38 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+26.12.2009 0:05:39 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+26.12.2009 0:05:39 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+26.12.2009 0:06:06 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+26.12.2009 0:06:06 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:06:06 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1079 ms
+26.12.2009 0:06:12 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+26.12.2009 0:06:12 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+26.12.2009 0:06:12 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+26.12.2009 0:06:13 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+26.12.2009 0:06:20 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+26.12.2009 0:06:21 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+26.12.2009 0:06:21 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/31  config=null
+26.12.2009 0:06:21 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+26.12.2009 0:06:21 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14375 ms
+26.12.2009 0:06:25 org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+26.12.2009 0:09:07 org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has not been started
+26.12.2009 0:09:07 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/hp]
+26.12.2009 0:17:14 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:17:15 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+26.12.2009 0:17:16 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+26.12.2009 0:17:16 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+26.12.2009 0:21:39 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+26.12.2009 0:21:39 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:21:39 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1141 ms
+26.12.2009 0:21:44 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+26.12.2009 0:21:44 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+26.12.2009 0:21:44 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+26.12.2009 0:21:46 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+26.12.2009 0:21:46 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+26.12.2009 0:21:46 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/110  config=null
+26.12.2009 0:21:46 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+26.12.2009 0:21:46 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6969 ms
+26.12.2009 0:22:05 org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has not been started
+26.12.2009 0:22:05 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/hp]
+26.12.2009 0:22:11 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+26.12.2009 0:22:16 org.apache.catalina.core.StandardContext start
+SEVERE: Error filterStart
+26.12.2009 0:22:16 org.apache.catalina.core.StandardContext start
+SEVERE: Context [/hp] startup failed due to previous errors
+26.12.2009 0:22:25 org.apache.catalina.core.StandardContext start
+SEVERE: Error filterStart
+26.12.2009 0:22:25 org.apache.catalina.core.StandardContext start
+SEVERE: Context [/hp] startup failed due to previous errors
+26.12.2009 0:23:04 org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has not been started
+26.12.2009 0:23:04 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/hp]
+26.12.2009 0:24:07 org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has not been started
+26.12.2009 0:24:10 org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has not been started
+26.12.2009 0:24:27 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:24:28 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+26.12.2009 0:24:28 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+26.12.2009 0:24:28 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+26.12.2009 0:24:32 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+26.12.2009 0:24:33 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:24:33 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1391 ms
+26.12.2009 0:24:38 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+26.12.2009 0:24:38 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+26.12.2009 0:24:38 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+26.12.2009 0:24:39 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+26.12.2009 0:24:40 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+26.12.2009 0:24:40 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+26.12.2009 0:24:40 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/47  config=null
+26.12.2009 0:24:40 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+26.12.2009 0:24:40 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7734 ms
+26.12.2009 0:24:50 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:24:51 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:24:51 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:24:51 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:24:51 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:24:51 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:24:51 org.apache.catalina.core.StandardContext start
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/hp] has already been started
+26.12.2009 0:25:27 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:25:28 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+26.12.2009 0:25:28 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+26.12.2009 0:25:28 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+26.12.2009 0:25:47 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+26.12.2009 0:25:47 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:25:47 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1157 ms
+26.12.2009 0:25:51 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+26.12.2009 0:25:51 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+26.12.2009 0:25:52 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+26.12.2009 0:25:52 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+26.12.2009 0:26:00 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+26.12.2009 0:26:00 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+26.12.2009 0:26:00 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/47  config=null
+26.12.2009 0:26:00 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+26.12.2009 0:26:00 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13265 ms
+26.12.2009 0:27:06 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+26.12.2009 0:27:07 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+26.12.2009 0:27:07 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+26.12.2009 0:27:07 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
