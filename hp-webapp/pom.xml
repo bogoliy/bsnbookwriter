@@ -37,6 +37,11 @@
 			<name>http://www.jarvana.com/jarvana/browse</name>
 			<url>http://www.jarvana.com/jarvana/browse</url>
 		</repository>
+		<repository>
+			<id>http://www.day.com/maven/</id>
+			<name>http://www.day.com/maven/</name>
+			<url>http://www.day.com/maven/</url>
+		</repository>
 	</repositories>
 	<dependencies>
 		<!-- TEST API -->
@@ -187,7 +192,21 @@
 		<dependency>
 			<groupId>javax.jcr</groupId>
 			<artifactId>jcr</artifactId>
-			<version>2.0</version>
+			<version>1.0</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.jackrabbit</groupId>
+			<artifactId>jackrabbit-core</artifactId>
+			<version>1.5.7</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springmodules</groupId>
+			<artifactId>spring-modules-jcr</artifactId>
+			<version>0.5</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
