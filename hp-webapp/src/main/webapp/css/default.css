@@ -71,6 +71,21 @@ a:hover {
 	border-bottom: 3px solid #FFFFFF;
 }
 
+/* Lang */
+
+#lang {
+	float: right;
+	width: 200px;
+	height: 37px;
+	margin: 0;
+	padding: 0 0 0 10px;
+	list-style: none;
+}
+
+#lang li {
+	display: inline;
+}
+
 /* Menu */
 
 #menu {

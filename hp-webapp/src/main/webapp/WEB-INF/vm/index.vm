@@ -15,12 +15,27 @@ Released for free under a Creative Commons Attribution 2.5 License
 <link href="css/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<script>
+	function reloadPage (locale) {
+		var url = newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+		window.location = url.substring(0, url.indexOf("?", 0)) + "?siteLanguage=" + locale;
+	
+	}
+</script>
+
+
 <div id="header">
 	<ul id="menu">
 		<li><a href="#" accesskey="1" title="">#springMessage("main.text")</a></li>
 		<li><a href="#" accesskey="2" title="">#springMessage("service.text")</a></li>
 		<li><a href="#" accesskey="3" title="">#springMessage("information.text")</a></li>
 		<li><a href="#" accesskey="4" title="">#springMessage("contacts.text")</a></li>
+	</ul>
+	
+	<ul id="lang">
+		<li><a onclick="reloadPage('ua')"  title=""><img src="images/flags/ua.gif"/></a></li>
+		<li><a onclick="reloadPage('ru')"  title=""><img src="images/flags/ru.gif"/></a></li>
+		<li><a onclick="reloadPage('en')"  title=""><img src="images/flags/us.gif"/></a></li>
 	</ul>
 </div>
 
@@ -63,13 +78,17 @@ Released for free under a Creative Commons Attribution 2.5 License
 	</div>
 	<div id="colTwo">
 		#foreach ($article in $articles) 
-  		  <p>$article.text</p>
+  		  <p>$article.data</p>
 		  <br/><br/>
 	    #end
 	</div>
+	#if($authz.principal != "guest") 
 	<div id="colTwo">
-		$editor.get("text", "Input your text here")
+		<form name="articleForm" action="addActicle.htm" method="post" >
+			$editor.get("data", "Input your text here")
+		</form>
 	</div>
+	#end
 </div>
 <div id="footer">
 	<p>Copyright (c) 2009 Bogoliy Alexandr. All rights reserved. Design by <a href="http://freecsstemplates.org/">Free CSS Templates</a>.</p>
