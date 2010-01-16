@@ -1,0 +1,494 @@
+12.01.2010 0:13:22 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 0:13:22 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:13:22 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2234 ms
+12.01.2010 0:13:28 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 0:13:28 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 0:13:28 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 0:13:29 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 0:13:37 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 0:13:41 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 0:13:41 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 0:13:41 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/62  config=null
+12.01.2010 0:13:41 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 0:13:42 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19453 ms
+12.01.2010 0:33:08 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:33:09 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 0:33:09 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 0:33:09 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 0:33:28 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 0:33:28 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:33:28 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1157 ms
+12.01.2010 0:33:33 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 0:33:33 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 0:33:33 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 0:33:35 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 0:33:42 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 0:33:45 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 0:33:45 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 0:33:45 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/94  config=null
+12.01.2010 0:33:45 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 0:33:45 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 17031 ms
+12.01.2010 0:36:03 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:36:04 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 0:36:06 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 0:36:06 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 0:46:51 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 0:46:52 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:46:52 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1157 ms
+12.01.2010 0:46:56 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 0:46:56 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 0:46:56 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 0:46:57 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 0:47:04 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 0:47:07 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 0:47:08 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 0:47:08 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/47  config=null
+12.01.2010 0:47:08 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 0:47:08 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 16390 ms
+12.01.2010 0:56:22 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:56:23 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 0:56:24 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 0:56:24 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 0:56:55 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 0:56:56 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:56:56 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1156 ms
+12.01.2010 0:57:01 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 0:57:01 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 0:57:01 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 0:57:01 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 0:57:13 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 0:57:17 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 0:57:17 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 0:57:17 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/62  config=null
+12.01.2010 0:57:17 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 0:57:17 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 21797 ms
+12.01.2010 0:58:31 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:58:32 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 0:58:33 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 0:58:33 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 0:59:04 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 0:59:04 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 0:59:04 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1265 ms
+12.01.2010 0:59:09 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 0:59:09 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 0:59:09 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 0:59:09 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 0:59:16 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 0:59:19 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 0:59:19 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 0:59:19 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/110  config=null
+12.01.2010 0:59:19 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 0:59:19 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14875 ms
+12.01.2010 1:00:15 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:00:16 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 1:00:17 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 1:00:17 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 1:01:02 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 1:01:03 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:01:03 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1187 ms
+12.01.2010 1:01:08 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 1:01:08 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 1:01:08 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 1:01:09 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 1:03:12 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 1:03:12 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:03:12 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1140 ms
+12.01.2010 1:03:17 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 1:03:17 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 1:03:17 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 1:03:18 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 1:04:52 org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:525)
+	at java.net.Socket.connect(Socket.java:475)
+	at java.net.Socket.<init>(Socket.java:372)
+	at java.net.Socket.<init>(Socket.java:186)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:344)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:435)
+12.01.2010 1:04:59 org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:525)
+	at java.net.Socket.connect(Socket.java:475)
+	at java.net.Socket.<init>(Socket.java:372)
+	at java.net.Socket.<init>(Socket.java:186)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:344)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:435)
+12.01.2010 1:05:21 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 1:05:21 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:05:21 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1063 ms
+12.01.2010 1:05:26 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 1:05:26 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 1:05:26 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 1:05:27 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 1:05:30 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 1:05:30 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 1:05:30 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/46  config=null
+12.01.2010 1:05:30 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 1:05:30 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8687 ms
+12.01.2010 1:06:03 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 1:27:57 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 1:27:57 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:27:57 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1640 ms
+12.01.2010 1:28:12 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 1:28:12 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 1:28:12 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 1:28:15 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 1:28:24 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 1:28:28 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 1:28:28 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 1:28:28 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/78  config=null
+12.01.2010 1:28:28 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 1:28:28 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 30984 ms
+12.01.2010 1:36:43 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:36:44 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 1:36:45 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 1:36:45 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 1:36:54 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 1:36:54 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:36:54 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1172 ms
+12.01.2010 1:36:58 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 1:36:58 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 1:36:58 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 1:36:59 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 1:37:03 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 1:37:06 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 1:37:06 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 1:37:06 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/94  config=null
+12.01.2010 1:37:06 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 1:37:06 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12422 ms
+12.01.2010 1:42:23 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:42:31 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 1:42:31 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 1:42:31 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1360 ms
+12.01.2010 1:42:36 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 1:42:36 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 1:42:36 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 1:42:36 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 1:42:41 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 1:42:43 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 1:42:44 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 1:42:44 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/31  config=null
+12.01.2010 1:42:44 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 1:42:44 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12859 ms
+12.01.2010 2:30:59 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:31:00 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 2:31:00 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 2:31:00 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 2:31:35 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 2:31:36 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:31:36 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1593 ms
+12.01.2010 2:31:40 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 2:31:40 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 2:31:40 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 2:31:41 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 2:31:47 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 2:31:50 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 2:31:50 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 2:31:50 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/47  config=null
+12.01.2010 2:31:50 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 2:31:50 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14359 ms
+12.01.2010 2:34:07 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:34:09 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 2:34:10 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 2:34:10 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 2:34:29 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 2:34:29 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:34:29 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 969 ms
+12.01.2010 2:34:35 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 2:34:35 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 2:34:35 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 2:34:36 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 2:34:42 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 2:34:45 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 2:34:45 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 2:34:45 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/63  config=null
+12.01.2010 2:34:45 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 2:34:45 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 15860 ms
+12.01.2010 2:35:45 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:35:47 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 2:35:48 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 2:35:48 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 2:36:55 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 2:36:55 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:36:55 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1016 ms
+12.01.2010 2:36:59 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 2:36:59 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 2:36:59 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 2:37:00 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 2:37:05 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 2:37:09 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 2:37:09 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 2:37:09 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/31  config=null
+12.01.2010 2:37:09 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 2:37:09 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14406 ms
+12.01.2010 2:48:27 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:48:29 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 2:48:29 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 2:48:29 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+12.01.2010 2:49:34 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Programming\Sun\SDK\jdk\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\CodeGear\RAD Studio\6.0\bin;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Bpl;E:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\Subversion\bin;C:\Program Files\jEdit;C:\Program Files\TortoiseSVN\bin;D:\Programming\Sun\SDK\jdk\\bin\;;C:\Program Files\Delphi 10 Lite\bin;D:\Programming\Maven\apache-maven-2.0.9\bin\;D:\Programming\ant\bin\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;;C:\Program Files\EurekaLog 6\Delphi10;C:\Program Files\EurekaLog 6\CBuilder10;C:\Program Files\EurekaLog 6\Delphi12;C:\Program Files\EurekaLog 6\CBuilder12;D:\Programming\Sun\SDK\bin;C:\Documents and Settings\root\My Documents\Borland Studio Projects\Bpl;D:\Program Files\Tools\WinNT;D:\Program Files\MSDev98\Bin;D:\Program Files\Tools;D:\VC98\bin;C:\Program Files\OpenVPN\bin
+12.01.2010 2:49:34 org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+12.01.2010 2:49:34 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1016 ms
+12.01.2010 2:49:38 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+12.01.2010 2:49:38 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.28
+12.01.2010 2:49:38 org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+12.01.2010 2:49:40 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive hp.war
+12.01.2010 2:49:47 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jcr-explorer.war
+12.01.2010 2:49:50 org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+12.01.2010 2:49:50 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+12.01.2010 2:49:50 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/78  config=null
+12.01.2010 2:49:50 org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+12.01.2010 2:49:50 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 16390 ms
+12.01.2010 9:06:10 org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+12.01.2010 9:06:11 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12.01.2010 9:06:12 org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+12.01.2010 9:06:12 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
