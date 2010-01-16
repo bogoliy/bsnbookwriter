@@ -80,9 +80,6 @@
 
 	<bean id="articleController"
 		class="ua.kiev.kpi.comsys.hp.webapp.controllers.ArticleController">
-		<property name="articleManager">
-			<ref bean="articleManager" />
-		</property>
 		<property name="jcrArticleManager">
 			<ref bean="jcrArticleManager" />
 		</property>
@@ -90,8 +87,11 @@
 
 	<bean id="addActicleController"
 		class="ua.kiev.kpi.comsys.hp.webapp.controllers.AddArticleController">
-		<property name="articleManager">
-			<ref bean="articleManager" />
+		<property name="jcrArticleManager">
+			<ref bean="jcrArticleManager" />
+		</property>
+				<property name="successView">
+			<value>redirect:index.htm</value>
 		</property>
 	</bean>
 

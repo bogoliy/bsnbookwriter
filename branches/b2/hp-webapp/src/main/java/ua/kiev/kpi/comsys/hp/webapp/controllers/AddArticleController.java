@@ -10,23 +10,24 @@ import org.apache.log4j.Logger;
 import org.springframework.security.context.SecurityContextHolder;
 import org.springframework.security.userdetails.UserDetails;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.support.RequestContext;
 
+import ua.kiev.kpi.comsys.hp.jcr.JCRArticleManager;
+import ua.kiev.kpi.comsys.hp.jcr.model.JCRArticle;
 import ua.kiev.kpi.comsys.hp.model.Article;
 import ua.kiev.kpi.comsys.hp.persist.ArticleManager;
 
 public class AddArticleController extends
 		org.springframework.web.servlet.mvc.SimpleFormController {
 
-	ArticleManager articleManager;
+	private JCRArticleManager jcrArticleManager;
 
-
-
-	public ArticleManager getArticleManager() {
-		return articleManager;
+	public JCRArticleManager getJcrArticleManager() {
+		return jcrArticleManager;
 	}
 
-	public void setArticleManager(ArticleManager articleManager) {
-		this.articleManager = articleManager;
+	public void setJcrArticleManager(JCRArticleManager jcrArticleManager) {
+		this.jcrArticleManager = jcrArticleManager;
 	}
 
 	/**
@@ -36,7 +37,7 @@ public class AddArticleController extends
 	 */
 	protected Object formBackingObject(HttpServletRequest request)
 			throws Exception {
-		return new Article();
+		return new JCRArticle();
 	}
 
 	/** Validates user/password against database */
@@ -55,7 +56,8 @@ public class AddArticleController extends
 			java.lang.Object command,
 			org.springframework.validation.BindException errors)
 			throws java.lang.Exception {
-
+		jcrArticleManager.saveArticle("main",(new RequestContext((HttpServletRequest) request))
+				.getLocale().toString(), ((JCRArticle) command).getData());
 		return new ModelAndView(getSuccessView());
 	}
 
