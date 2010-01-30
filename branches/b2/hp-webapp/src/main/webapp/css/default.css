@@ -75,10 +75,14 @@ a:hover {
 
 #lang {
 	float: right;
-	width: 200px;
+	width: 80px;
 	height: 37px;
-	margin: 0;
-	padding: 0 0 0 10px;
+
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:10px;
+	
 	list-style: none;
 }
 
