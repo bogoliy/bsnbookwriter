@@ -1,30 +1,30 @@
 ----------------------------------------------------------------
-2010-01-15 23:46:34.093 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-0126-3461-8f51-0000001cd700
-on database directory F:\SERVER\jackrabbit\version\db  
+2010-01-30 11:05:22.640 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-0126-7ee8-0ee6-0000001cd6f0
+on database directory E:\SERVER\jackrabbit\version\db  
 
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-2010-01-15 23:46:36.125 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance e03f4017-0126-3461-8f51-0000001cd700
-on database directory F:\SERVER\jackrabbit\workspaces\default\db  
+2010-01-30 11:05:26.734 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance e03f4017-0126-7ee8-0ee6-0000001cd6f0
+on database directory E:\SERVER\jackrabbit\workspaces\default\db  
 
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-2010-01-15 23:47:10.515 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance 80840021-0126-3461-8f51-0000001cd700
-on database directory F:\SERVER\jackrabbit\workspaces\security\db  
+2010-01-30 11:05:43.921 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance 80840021-0126-7ee8-0ee6-0000001cd6f0
+on database directory E:\SERVER\jackrabbit\workspaces\security\db  
 
 Database Class Loader started - derby.database.classpath=''
 
-2010-01-16 00:33:40.656 GMT:
-Shutting down instance e03f4017-0126-3461-8f51-0000001cd700
+2010-01-30 11:09:44.203 GMT:
+Shutting down instance e03f4017-0126-7ee8-0ee6-0000001cd6f0
 ----------------------------------------------------------------
 
-2010-01-16 00:33:40.687 GMT:
-Shutting down instance 80840021-0126-3461-8f51-0000001cd700
+2010-01-30 11:09:44.296 GMT:
+Shutting down instance 80840021-0126-7ee8-0ee6-0000001cd6f0
 ----------------------------------------------------------------
 
-2010-01-16 00:33:40.718 GMT:
-Shutting down instance c013800d-0126-3461-8f51-0000001cd700
+2010-01-30 11:09:44.312 GMT:
+Shutting down instance c013800d-0126-7ee8-0ee6-0000001cd6f0
 ----------------------------------------------------------------

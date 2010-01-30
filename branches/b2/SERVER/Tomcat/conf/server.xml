@@ -53,8 +53,8 @@
           auth="Container"
           type="javax.jcr.Repository"
           factory="org.apache.jackrabbit.core.jndi.BindableRepositoryFactory"
-          configFilePath="F:\SERVER\jackrabbit\repository.xml"
-          repHomeDir="F:\SERVER\jackrabbit"/>
+          configFilePath="E:\SERVER\jackrabbit\repository.xml"
+          repHomeDir="E:\SERVER\jackrabbit"/>
 
   </GlobalNamingResources>
 
