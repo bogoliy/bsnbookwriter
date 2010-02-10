@@ -8,9 +8,8 @@
   <name>hp</name>
   <url>http://maven.apache.org</url>
   <modules>
-  	<module>hp-model</module>
-  	<module>hp-webapp</module>
-    <module>hp-jcr</module>
+    <module>hp-model</module>
+    <module>hp-webapp</module>
   </modules>
   <dependencies>
     <dependency>

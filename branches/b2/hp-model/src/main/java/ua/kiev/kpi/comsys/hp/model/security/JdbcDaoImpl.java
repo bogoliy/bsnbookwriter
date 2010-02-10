@@ -117,11 +117,11 @@ public class JdbcDaoImpl extends
 	public static final String DEF_AUTHORITIES_BY_USERNAME_QUERY = "SELECT us_login,au_authority "
 			+ "FROM authority,user "
 			+ "WHERE us_login = ? and user.us_id=authority.us_id";
-	public static final String DEF_GROUP_AUTHORITIES_BY_USERNAME_QUERY = "SELECT g.id, g.group_name, ga.au_authority "
+	public static final String DEF_GROUP_AUTHORITIES_BY_USERNAME_QUERY = "SELECT g.g_id, g.g_name, ga.ga_authority "
 			+ "FROM groups g, group_members gm, group_authorities ga , user u"
 			+ "WHERE gm.us_id = u.us_id "
 			+ "AND g.g_id = ga.g_id "
-			+ "AND g.id = gm.g_id " + "AND u.us_login = ?";
+			+ "AND g.g_id = gm.g_id AND u.us_login = ?";
 
 	// ~ Instance fields
 	// ================================================================================================
@@ -191,11 +191,13 @@ public class JdbcDaoImpl extends
 	public UserDetails loadUserByUsername(String username)
 			throws UsernameNotFoundException, DataAccessException {
 		List users = loadUsersByUsername(username);
+		System.out.println("Found " + users.size() + " users");
 		if (users.size() == 0) {
 			throw new UsernameNotFoundException(messages.getMessage(
 					"JdbcDaoImpl.notFound", new Object[] { username },
 					"Username {0} not found"), username);
 		}
+		System.out.println("Found " + users.size() + " users");
 
 		UserDetails user = (UserDetails) users.get(0); // contains no
 		// GrantedAuthority[]
@@ -223,7 +225,7 @@ public class JdbcDaoImpl extends
 		GrantedAuthority[] arrayAuths = (GrantedAuthority[]) dbAuths
 				.toArray(new GrantedAuthority[dbAuths.size()]);
 
-
+		System.out.println("User details created for " + user + " with auth-ies " + arrayAuths[0] );
 		return createUserDetails(username, user, arrayAuths);
 	}
 

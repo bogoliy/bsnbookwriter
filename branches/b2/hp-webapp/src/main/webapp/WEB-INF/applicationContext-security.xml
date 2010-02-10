@@ -40,7 +40,7 @@
 
 	<bean id="userDetailsService" class="ua.kiev.kpi.comsys.hp.model.security.JdbcDaoImpl">
 		<property name="dataSource">
-			<ref bean="dataSource" />
+			<ref bean="hsqlDataSource" />
 		</property>
 	</bean>
 
@@ -58,6 +58,24 @@
 		</property>
 		<property name="password">
 			<value>root</value>
+		</property>
+	</bean>
+	
+	
+	<bean id="hsqlDataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName">
+			<value>org.hsqldb.jdbcDriver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:hsqldb:file:/SERVER/data/hp
+			</value>
+		</property>
+		<property name="username">
+			<value>sa</value>
+		</property>
+		<property name="password">
+			<value></value>
 		</property>
 	</bean>
 
