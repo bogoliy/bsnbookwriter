@@ -1,30 +1,12 @@
 ----------------------------------------------------------------
-2010-01-30 11:05:22.640 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-0126-7ee8-0ee6-0000001cd6f0
+2010-02-10 00:47:22.890 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-0126-b558-386e-0000001cd6f0
 on database directory E:\SERVER\jackrabbit\version\db  
 
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-2010-01-30 11:05:26.734 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance e03f4017-0126-7ee8-0ee6-0000001cd6f0
+2010-02-10 00:47:24.625 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance e03f4017-0126-b558-386e-0000001cd6f0
 on database directory E:\SERVER\jackrabbit\workspaces\default\db  
 
 Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2010-01-30 11:05:43.921 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance 80840021-0126-7ee8-0ee6-0000001cd6f0
-on database directory E:\SERVER\jackrabbit\workspaces\security\db  
-
-Database Class Loader started - derby.database.classpath=''
-
-2010-01-30 11:09:44.203 GMT:
-Shutting down instance e03f4017-0126-7ee8-0ee6-0000001cd6f0
-----------------------------------------------------------------
-
-2010-01-30 11:09:44.296 GMT:
-Shutting down instance 80840021-0126-7ee8-0ee6-0000001cd6f0
-----------------------------------------------------------------
-
-2010-01-30 11:09:44.312 GMT:
-Shutting down instance c013800d-0126-7ee8-0ee6-0000001cd6f0
-----------------------------------------------------------------
