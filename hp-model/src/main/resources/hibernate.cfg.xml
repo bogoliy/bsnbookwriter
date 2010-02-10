@@ -3,12 +3,21 @@
                                          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<session-factory name="mysql_factory">
+		<property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
+		<property name="connection.url">jdbc:hsqldb:file:/SERVER/data/hp</property>
+		<property name="connection.username">sa</property>
+		<property name="connection.password"></property>
+		<property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+		<property name="current_session_context_class">thread</property>
+
+		<!-- Temporary HSQLDB
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="hibernate.connection.password">root</property>
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hp</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="current_session_context_class">thread</property>
+		-->
 		<!--
 			С3PO - JDBC пул соединений с открытыми исходными кодами (open source
 			connection pool), распространяемый вместе с Hibernate в каталоге lib.

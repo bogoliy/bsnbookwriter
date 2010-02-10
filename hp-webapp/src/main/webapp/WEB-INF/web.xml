@@ -1,7 +1,7 @@
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
+ 
 <web-app>
 	<display-name>HP in KPI</display-name>
 	<context-param>
@@ -9,39 +9,39 @@
 		<param-value>/WEB-INF/log4j.properties</param-value>
 		<description>Log 4j props</description>
 	</context-param>
-
-
+	
+	
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
-
+	
+	
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
-
+	
 	<!-- Language -->
 	<filter>
 		<filter-name>selectLanguageFilter</filter-name>
 		<filter-class>ua.kiev.kpi.comsys.hp.webapp.filters.SelectLanguageFilter</filter-class>
 	</filter>
-
+	
 	<filter-mapping>
 		<filter-name>selectLanguageFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-
+	
 	<!-- Jetty not lock 
-	<servlet>
+		<servlet>
 		<servlet-name>default</servlet-name>
 		<servlet-class>org.mortbay.jetty.servlet.DefaultServlet</servlet-class>
 		<init-param>
-			<param-name>useFileMappedBuffer</param-name>
-			<param-value>false</param-value>
+		<param-name>useFileMappedBuffer</param-name>
+		<param-value>false</param-value>
 		</init-param>
 		<load-on-startup>0</load-on-startup>
-	</servlet> -->
-
+		</servlet> -->
+	
 	<!-- Spring FrameWork -->
 	<servlet>
 		<servlet-name>controller</servlet-name>
@@ -53,7 +53,7 @@
 		<servlet-name>controller</servlet-name>
 		<url-pattern>*.htm</url-pattern>
 	</servlet-mapping>
-
+	
 	<!-- Spring Security -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
@@ -61,12 +61,12 @@
 			/WEB-INF/applicationContext-security.xml
 		</param-value>
 	</context-param>
-
+	
 	<filter>
 		<filter-name>springSecurityFilterChain</filter-name>
 		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
 	</filter>
-
+	
 	<filter-mapping>
 		<filter-name>springSecurityFilterChain</filter-name>
 		<url-pattern>/*</url-pattern>
@@ -79,7 +79,7 @@
 		</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-
+	
 	<servlet-mapping>
 		<servlet-name>ConnectorServlet</servlet-name>
 		<!--
@@ -87,12 +87,12 @@
 		-->
 		<url-pattern>/fckeditor/editor/filemanager/connectors/*</url-pattern>
 	</servlet-mapping>
-
+	
 	<!-- JCR -->
 	<resource-env-ref>
 		<description>Content Repository</description>
 		<resource-env-ref-name>jcr/repository</resource-env-ref-name>
 		<resource-env-ref-type>javax.jcr.Repository</resource-env-ref-type>
 	</resource-env-ref>
-
+	
 </web-app>
